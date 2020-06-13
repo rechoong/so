@@ -1,2 +1,1 @@
-
-#[sousou](https://github.com/memoryza/sousou)
+# [sousou](https://github.com/memoryza/sousou)
