@@ -1,0 +1,364 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" id="sixapart-standard">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="Movable Type 5.2.2" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="static/styles.css" type="text/css" />
+<link rel="start" href="/" title="Home" />
+<link rel="alternate" type="application/atom+xml" title="Recent Entries" href="http://feeds.feedburner.com/choong" />
+<script type="text/javascript" src="static/mt.js"></script>
+
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="static/rsd.xml" />
+    <title>index - 目录</title>
+    <link rel="icon" href="images/favicon.png">
+	<style>
+html{
+	width:100%;
+	height: 100%;
+	margin:0;
+	padding:0
+}
+body{
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	background-position:50% 50%; 
+	margin:0;
+	padding:0;
+	width:100%;
+	height:100%;
+	background-image:url(/static/images_pub/pub_0.png);
+	-webkit-transition: All 2s ease;
+	-moz-transition: All 2s ease;
+	-o-transition: All 2s ease;
+	-ms-transition: All 2s ease;
+	transition: All 2s ease;
+}
+body.one-column #container{
+	background-color:rgba(0,0,0,0.3);
+	border-radius: 1.5em;
+	color: #fefefe;
+	overflow: auto; 
+    position: absolute;
+	left: 50%;
+	top: 50%;
+	width:auto;
+	height:auto;
+	max-height: 80%;
+	min-width:90%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+    
+    transition: height 1s ease;
+	transition: top 1s ease;
+}
+body.one-column #container p,
+body.one-column #container a{
+	color: #fefefe;
+	text-shadow:0 1px 1px #333
+}
+body.one-column #container a:hover{
+	color: #868686;
+	text-decoration: underline;
+}
+body.one-column #page-alpha p:hover,
+body.one-column #footer-content a:hover{
+	background-color: #fefefe;
+	color: #222;
+}
+body.one-column #footer-content a:hover{
+	padding: 0.25rem;
+	border-radius: 0.5em;
+}
+body.one-column #page-alpha p:hover a{
+	color: #222;
+}
+body.one-column #page-alpha p{
+	background-color: rgba(0,0,0,0.5);
+	padding: 0.25rem;
+	border-radius: 0.5em;
+	text-shadow:0 1px 1px #333;
+}
+body.one-column #header{
+	/* height: 7rem; */
+	display: relative;
+	padding-bottom: 1em;
+}
+body.one-column #container h1{
+	font-size: 1.4rem;
+	line-height: 90%;
+	color: #fefefe;
+	float: none;
+	margin: auto;
+	padding-top: 0.4rem;
+	text-align: center;
+	font-weight: bolder;
+	text-shadow:0 1px 1px #333;
+}
+body.one-column #header-content:hover h1{
+	text-decoration: underline;
+}
+body.one-column #header-content h1:hover{
+	cursor:pointer;
+}
+/*
+body.one-column #header-content h1::after{
+	content:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUBAMAAAB/pwA+AAAALVBMVEVkLXAcHBodHRsdHRweHhseHhwfHxwfHx0gIBwgIB0gIB4hIR4hIR8iIiAjIyE9I8U+AAAAAXRSTlMAQObYZgAAAAFiS0dEAIgFHUgAAAAJcEhZcwAACxMAAAsTAQCanBgAAAAHdElNRQfeAQQHLyUKtZO3AAAAcUlEQVQI12NgAAJWBijQYGBnYIIw2RUYeBQYcINJUQyLGJQWQji8SggJdQTzEJyFrEALwT6kowRXsEjd4ABMQZE6WFyOYZGWUqk2iAm0q0g1KADEVDoEVKAKZrIDVQaVQ2zUVEpSCXIAM5lUlZSVAhgAQrASIJnpI9IAAAAASUVORK5CYII=);
+	display:inline-block;
+	background-color: #fefefe;
+	color: #222;
+	margin-left: 0.5em;
+	padding: 5px;
+	border-radius: 100%;
+	visibility: hidden;
+}
+*/
+body.one-column #header-content p{
+	text-align: center;
+}
+body.one-column #header-content{
+	display:block;
+	text-align: center;
+	margin: auto;
+}
+/*
+body.one-column #header-content::before{
+	display: block;
+	margin: 0.1rem auto;
+	width: 80px;
+	height: 80px;
+	content:url(/static/images/person4_s.jpg);
+	border-radius: 40px;
+	overflow: hidden;
+}
+*/
+@media (min-width: 641px) and (max-width:770px){
+	body.one-column #container{
+		min-width:70%;
+	}
+}
+@media (min-width: 771px){
+	body.one-column #container{
+		min-width:40%;
+	}
+}
+#up-arrow{
+	position: absolute;
+	right: 5px;
+	top: 5px;
+	width: 21px;
+	height: 21px;
+	background-image: url(data:image/gif;base64,R0lGODlhFgAVALMAAGNkZuLi44CBg5SVlru8vPb29tjZ2aioqW1ucIqLjOrq6sXFxgAAAAAAAAAAAAAAACH5BAAHAP8ALAAAAAAWABUAAARBUMlJq7046837LYVnJYlIEQBAmEqQpoEpvIAgHnR6dEb+GpsCwpdChDID4muQWShpi8+ARBUIqKTBkcXter9gUwQAOw==);
+	background-color: #fefefe;
+	border-radius: 100%;
+    cursor: n-resize;
+}
+body.one-column #container.folded{
+	top:15px;
+	margin-top:5px;
+	height:6px;
+	overflow:hidden;
+}
+    </style>
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	  <style>
+body.one-column #container{
+	background-color: #f5f5d5;
+	color: #111111;
+	display: absolute;
+	width: 50em;
+	margin: 10% auto;
+	min-width: 0;
+	top: 10%;
+	left:25%;
+	overflow: hidden;
+}
+body.one-column #container h1,
+body.one-column #container p,
+body.one-column #container a{
+	color: #111111;
+}
+  </style>
+  <![endif]-->
+</head>
+
+<body id="classic-website" class="mt-main-index one-column">
+    <div id="container">
+        <div id="container-inner">
+
+
+                       <div id="header">
+    <div id="header-inner">
+        <div id="header-content" onclick="backgroundImage();return false;">
+			<h1 title="个人网站">So.网站导航地图</h1>
+			<p> ( Plan ABZ )
+			<!--  	网站矩阵： <a href="#" title="国际站">*.net</a>&nbsp; | &nbsp;<a href="#" title="中国站">*.cn</a> -->
+ </p>
+        </div>
+    </div>
+</div>
+
+
+        <div id="content">
+                <div id="content-inner">
+
+
+                    <div id="alpha">
+                    <div id="alpha-inner">
+ <div id="page-alpha"    style="margin-bottom:2em;">
+
+ 
+  <p>» <!-- a href="docs/">Articles</a> | -->
+	    <a href="./" title="主页">Home</a> | <a href="/blog" title="博客">博客</a>
+   		 | <a href="v" title="VIP看视频">视频</a> | <a href="y" title="音乐">音乐</a>
+		 | <a href="4o4.html" title="笔记">笔记</a> | <a href="list" title="收藏链接">收藏</a>
+		 | <a href="https://www.virustotal.com/zh-cn/" title="VirusTotal 是全球最大的免费在线查毒网站，现隶属于Google 的母公司Alphabet Inc.持有。">VT</a>		 
+		 | <a href="https://account.microsoft.com/family/?hl=zh_CN" title="家庭 | Microsoft Family Safety">❤️</a>		 
+		 | <a href="https://outlook.live.com/calendar/?hl=zh_CN" title="日历 -Outlook">📅</a> 
+		 | <a href="4o4.html" title="">🦊</a>
+		 <br>
+	    
+		» 
+		 <a href="https://todo.microsoft.com/zh-cn/" title="Microsoft To-Do（微软待办 由❤️柏林的 奇妙清单团队 构建。） | To Do 让你从工作到娱乐都保持专注。【简单好记的短网址 https://to-do.live.com/】">To-Do</a> 
+		 | <a href="https://evernote.com/intl/zh-cn/" title="印象笔记 | 工作必备效率应用 | Evernote">Evernote</a>
+		 | <a href="https://www.linkedin.com/" title="Linkedin - 全球领先的职业社交平台 | 领英">Linkedin</a>
+		 | <a href="https://www.dnspod.cn/" title="DNSPod -免费智能DNS解析服务商-电信_网通_教育网,智能DNS">DNSPod</a>
+		 | <a href="https://coding.net/" title="Coding | 代码托管 项目管理 WebIDE 企业服务">Coding</a>
+		 | <a href="https://github.com/" title="GitHub 是目前为止最大的开源Git 托管服务，开源代码仓库，开源协作社区。">GitHub</a>
+         | <a href="https://steemit.com/hot/cn/" title="Steemit，一个新型的社交媒体平台，用户在该平台发布内容（文章、图片、评论）后，根据用户的投票和评论等规则，可得到一种系统奖励代币Steem。">Steemit</a>
+		 <br>
+	   
+	   »
+		<a href="about" title="关于">About</a>
+		| <a href="sitemap" title="站点地图">Sitemap</a>
+		| <a href="accounts" title="我的账户">Accounts</a>
+		| <a href="contact" title="联系">Contact</a>
+		| <a href="Links" title="友情链接">Links</a>
+		| <a href="eveshow" title="❤️夏娃之秀">Eveshow</a>
+		| <a href="So.html" title="❤️Soul - 跟随灵魂找到你">So</a>		
+		
+ </p>
+<!-- p>» <a href="/exmail.html">Mail</a></p>
+<p>» <a href="about.html">About</a></p -->
+
+</div>
+<div id="up-arrow"></div>
+<div id="page-beta">
+<!--<div id="photo">
+<p><img src="person2_150.jpg" /></p>
+<p class="photo-desc">Taken in 2005</p>
+</div>-->
+</div>
+                        </div>
+                    </div>
+
+
+                    <div id="beta">
+    <div id="beta-inner">
+
+
+
+    </div>
+</div>
+
+
+                </div>
+            </div>
+
+			
+			
+
+			
+
+            <div id="footer">
+    <div id="footer-inner">
+        <div id="footer-content">
+		<p id=copyright align="left">
+		   Copyright &copy; <a href="/" title="返回主页"><script>// <![CDATA[
+                 document.write(new Date().getFullYear());
+                 // ]]></script></a> 
+		<span id="img_placer">	
+		 <div class="footer-info">基于
+		 <a rel="nofollow" target="_blank" href="https://www.aliyun.com">阿里云</a> 
+	   + <a rel="nofollow" target="_blank" href="https://www.linode.com">Linode</a> 
+	   + <a rel="nofollow" target="_blank" href="https://www.namesilo.com">NameSilo</a>  构建
+	   &nbsp;&nbsp;|&nbsp;&nbsp;
+	   <a href="sitemap" title="站点地图">站点地图</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+<!--   <a rel="nofollow" href="advertise" title="广告投放">广告投放</a>&nbsp;&nbsp;|&nbsp;&nbsp; -->
+<!--   <a rel="nofollow" target="_blank" href="store" title="微店">微店</a>&nbsp;&nbsp; | &nbsp;&nbsp; -->
+              <a href="http://www.miitbeian.gov.cn/publish/query/indexFirst.action" target="blank" title="备案号">浙ICP备20200908号</a>
+		 
+		 </div>
+		</span>
+        
+
+		</p>
+
+       
+		
+		
+</div>
+    </div>
+</div>
+
+
+
+        </div>
+    </div>
+<script>
+var pub_img_current_image;
+function backgroundImage(){
+var pub_img_path='/static/images_pub/';
+var pub_img_num = 355;
+var pub_img_current_no=function(){return Math.floor(Math.random()*pub_img_num+1);};
+var pub_img_url=function(){return pub_img_path+'pub_'+pub_img_current_no()+'.jpg';};
+if (pub_img_current_image === undefined ) pub_img_current_image = pub_img_url();
+if ('querySelector' in document) {
+	var body = document.querySelector('body').style;
+} else {
+	var body = document.body.style;
+}
+body.backgroundSize = 'cover';
+body.backgroundRepeat = 'no-repeat';
+body.backgroundImage = 'url('+ pub_img_current_image +')';
+var span = document.getElementById('img_placer');
+span.innerHTML = '<span style="background-image: url('+(pub_img_current_image=pub_img_url())+');width: 0px;height: 0px;display: inline;"></span>';
+}
+backgroundImage();
+var up = document.getElementById('up-arrow');
+var upStatus = 0;
+up.addEventListener('click',function(){
+	if(upStatus === 0){
+		var container = document.getElementById('container');
+		container.setAttribute('class', 'folded');
+		up.style.backgroundImage = 'url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAYCAYAAAARfGZ1AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN1wAADdcBQiibeAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAHZSURBVEiJ7ZQ/ixpRFMXPeY6za7IEbbS1EGysUk0TkFjkI1imShFIioVASJsqW2wT8gW2TSsypBCLBLExEBgQ2cxodDdYKBhHDZv5c1Ooi4juGsIWCXvhNo97fu+++857FBHcVKgbI9/C/z84ROQyAahMJnMvn88fAIgB2AegA4guMrJoiAC4qt2UXPU5yT3DMB6l0+kHmqYpEQkWDTAMw8u6MAxJEiIiSikEQRAdjUY/Go3G8XA4HC/rtLVTXBiG0dR1/XkqlXqo6/rPMAw535cQES67XqxRRCKz2cydTqdPVsHAhpnX6/XTyWTy0nXdLyTvRiKRO0qpGMkYyX0AeyR1klEAmud5F7ZtvyiXy+/XWdz2/AuFwv1sNnsSj8dzMi8iyXBxQkUSnuf5rVbrValUOpYNoK1uqVQqn9vt9tPxePxVKbUcC0SESin4vh82m80jx3HebgJfCQcA0zQ/2bb9zHXdbyRBUiml6Pt+4DjOu06n88ayrF/b9Nf63DTND91u99B13e+apsHzPHEc56TX6722LGtylXbrzNejWCw+TiaTR4PB4GO/3z+sVqtn12l2hudyuYNEImEEQdCs1Wrnu2h2hgNzu2y7vL+G/2n8u7/iLXxj/AYhQQQGkT/xPgAAAABJRU5ErkJggg==)';
+        up.style.cursor = 's-resize'; 
+	} else{
+		var container = document.getElementById('container');
+		container.removeAttribute('class');
+		up.style.backgroundImage = 'url(data:image/gif;base64,R0lGODlhFgAVALMAAGNkZuLi44CBg5SVlru8vPb29tjZ2aioqW1ucIqLjOrq6sXFxgAAAAAAAAAAAAAAACH5BAAHAP8ALAAAAAAWABUAAARBUMlJq7046837LYVnJYlIEQBAmEqQpoEpvIAgHnR6dEb+GpsCwpdChDID4muQWShpi8+ARBUIqKTBkcXter9gUwQAOw==)';
+        up.style.cursor = 'n-resize';
+	}
+	upStatus = ~ upStatus;
+});
+			
+	</script>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-46829782-1', 'qq.com');
+  ga('send', 'pageview');
+</script>
+</body>
+</html>
